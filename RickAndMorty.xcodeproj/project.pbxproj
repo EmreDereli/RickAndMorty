@@ -15,6 +15,7 @@
 		5B4DC9D6262B32520041380A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4DC9D4262B32520041380A /* LaunchScreen.storyboard */; };
 		5B4DC9E9262B33E50041380A /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DC9E8262B33E50041380A /* CharacterTableViewCell.swift */; };
 		5B4DC9ED262B38F40041380A /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DC9EC262B38F40041380A /* CharacterModel.swift */; };
+		5B4DC9F0262B3A170041380A /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DC9EF262B3A170041380A /* CharacterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5B4DC9D7262B32520041380A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4DC9E8262B33E50041380A /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
 		5B4DC9EC262B38F40041380A /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		5B4DC9EF262B3A170041380A /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		5B4DC9DF262B32670041380A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5B4DC9EF262B3A170041380A /* CharacterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				5B4DC9ED262B38F40041380A /* CharacterModel.swift in Sources */,
 				5B4DC9CA262B32520041380A /* AppDelegate.swift in Sources */,
 				5B4DC9CC262B32520041380A /* SceneDelegate.swift in Sources */,
+				5B4DC9F0262B3A170041380A /* CharacterViewModel.swift in Sources */,
 				5B4DC9E9262B33E50041380A /* CharacterTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
