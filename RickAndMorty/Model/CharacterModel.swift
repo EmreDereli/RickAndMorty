@@ -8,8 +8,8 @@
 import Foundation
 
 struct CharacterModel {
-    private var name : String
-    private var status : String
-    private var species : String
-    private var image : String
+    let name : String
+    let status : String
+    let species : String
+    let image : String
 }
