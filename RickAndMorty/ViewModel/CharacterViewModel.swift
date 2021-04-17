@@ -8,7 +8,7 @@
 import Foundation
 
 struct CharacterListViewModel {
-    let characterList : [CharacterModel]
+    let characterList : [Result]
 }
 
 extension CharacterListViewModel {
@@ -24,7 +24,11 @@ extension CharacterListViewModel {
 
 
 struct CharacterViewModel {
-    let character : CharacterModel
+    let character : Result
+    
+    var id : Int{
+        return self.character.id
+    }
     
     var name : String{
         return self.character.name
@@ -37,8 +41,22 @@ struct CharacterViewModel {
     var species : String{
         return self.character.species
     }
-    
+    var type : String{
+        return self.character.type
+    }
+    var gender : String{
+        return self.character.gender
+    }
+    var origin : Any{
+        return self.character.origin
+    }
+    var location : Any{
+        return self.character.location
+    }
     var image : String{
         return self.character.image
+    }
+    var episode : [String]{
+        return self.character.episode
     }
 }
